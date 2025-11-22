@@ -1,0 +1,41 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo done",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "base64url": "^3.0.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "chart": "^0.1.2",
+    "chart.js": "^4.3.0",
+    "connect-mongo": "^5.1.0",
+    "connect-session-sequelize": "^7.1.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "getmac": "^5.20.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.11.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-macaddress": "^0.2.4",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.1.9",
+    "pug": "^3.0.2",
+    "request-ip": "^3.3.0",
+    "sql": "^0.78.0",
+    "text-encoding": "^0.7.0"
+  }
+}

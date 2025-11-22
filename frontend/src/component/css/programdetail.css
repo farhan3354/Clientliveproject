@@ -1,0 +1,67 @@
+/* ProgramDetail.css */
+
+.main-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .program-card {
+    max-width: 600px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .program-card__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .program-card__body {
+    padding: 20px;
+  }
+  
+  .program-card__info {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .program-card__image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  .program-card__description {
+    font-size: 18px;
+    margin: 20px 0;
+    white-space: pre-wrap;
+  }
+  
+  .program-card__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .program-card__button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .program-card__button:hover {
+    background-color: #0069d9;
+  }
